@@ -4,3 +4,5 @@
     * [Fundamentals](/python/fundamentals)
     * [OOP](/python/oop)
     * [Advanced](/python/advanced)
+
+2. [Numpy](/numpy)
