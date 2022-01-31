@@ -1,13 +1,16 @@
 #https://runestone.academy/
 #Değişkenler
-""" Python'da konsola ya da bir python dosyasına 50 gibi bir değer girip çalıştırdığınızda
+""" 
+    Python'da konsola ya da bir python dosyasına 50 gibi bir değer girip çalıştırdığınızda
     programın çalıştığını göreceksiniz. Ancak bu değeri daha sonra kullanabilmek için bir 
     saklama alanına ihtiyaç duyacaksınız. İşte burada bize yardımcı olacak kelime değişkenler.
     Sistem değer değişken eşlemesi yapar ve programda değişkeni çağırdığınız zaman bu eşleşme sayesinde
     ihtiyacınız olan değer size getirilir.
     Python da değişkenler, diğer dillerde olduğu gibi veri tipini yazıp daha sonra 
     değişkeni tanımlamıyoruz. Direk değişkeni tanımlayıp herhangi bir değere 
-    eşitliyoruz."""
+    eşitliyoruz.
+"""
+
 
 x = 10
 y = -5
@@ -15,10 +18,12 @@ sehir = "istanbul"
 ulke = "turkiye"
 z = 10.5
 
+
 #Değişken İsimlendirme Kuralları
 """ Sayı ile başlayamaz.
     Boşluk ve özel karakterler(?,!,],&,...) içeremez.
     Programlama diline ait anahtar kelimelerden (keyword) oluşamaz. """
+
 
 #İlkel Veri Tipleri
 """ String
@@ -33,6 +38,7 @@ weight = 85.5
 sure = True
 print(type(number))
 
+
 #Boolean Veri Tipi
 """ True (Doğru) ya da False (Yanlış) değer alan bir veri tipidir. Genelde bool değer tanımlamayız,
     bool değer döndüren yapılar tanımlarız. Bu yapıları karşılaştırma (comparison) operatörleri ile gerçekleştiririz.
@@ -43,6 +49,7 @@ a = True
 print(a)
 b = 1 < 3 # Küçük mü karşılaştırma operatörü
 print(b)
+
 
 #Complex Veri Tipi
 """ Matematikten de bildiğimiz karmaşık sayılardır. Gerçek sanal olmak üzere iki kısmı olan sayılardır.
@@ -57,6 +64,7 @@ print(type(a))
 c = a  + b
 print(c)
 print(c.real,c.imag)
+
 
 #Veri Tipi Dönüşümleri
 """ Python dilinde bir veri tipini diğer bir veri tipine dönüştürmek mümkündür. Örneğin: string -> int, int -> string, float -> int, vb.
@@ -130,6 +138,7 @@ print(type(bool_to_float))
 bool_to_string = str(True) # False = "False" | True = "True"
 print(bool_to_string)
 print(type(bool_to_string))
+
 
 #Expressions and Statements
 """ Değişkenler, değerler, operator işlemleri, fonksiyon çağrımları vb. bunlar expression'dır.

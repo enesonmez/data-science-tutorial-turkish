@@ -1,27 +1,36 @@
-""" Listeler verilerimizi bir arada tutmamızı sağlayan bir veri tipidir. Genel programlama
+""" 
+    Listeler verilerimizi bir arada tutmamızı sağlayan bir veri tipidir. Genel programlama
     jargonunda Array olarakta bilinir. 
     Listede eleman değişikliği yapabiliriz.
     Birden fazla ilkel veri tipini aynı listeye ekleyebiliriz.
-    İç içe listeler oluşturabiliriz."""
+    İç içe listeler oluşturabiliriz.
+"""
+
 
 liste = ["Samsun",55,12.5,True]
 iciceliste = ["Trabzon",61,["Aydın",9]]
+
 
 #Listedeki Elemanlara Ulaşma (İndisleme)
 print(iciceliste[0]) # [-1] veya [len(list_name) - 1] ile son liste elemanına ulaşabiliyoruz.
 print(iciceliste[2][0])
 
+
 #Lİste Slice (Dilimlemek)
 """ Belli liste eleman aralığını almamızı sağlar."""
 liste2 = liste[:2] #Başlangı. indisinden 2. indise kadar değerleri alıp liste2'ye atar.
+
 
 #Concatenation (Birleştirme) and Repetition (Tekrarlama)
 mergelist = liste + [1,2,3,4] #["Samsun",55,12.5,True,1,2,3,4]
 repeatlist = [1,2,3,4] * 2  #[1,2,3,4,1,2,3,4] 
 
+
 #Liste Değişebilirlik (Mutability)
-""" Liste elemanlarını yeni veriler ile değiştirebiliyoruz. Aynı zamanda liste veri tipi hem birleştirilebilme hem de
-    ekleme özelliğini barındırır."""
+""" 
+    Liste elemanlarını yeni veriler ile değiştirebiliyoruz. Aynı zamanda liste veri tipi hem birleştirilebilme hem de
+    ekleme özelliğini barındırır.
+"""
 
 fruit = ["banana", "apple", "cherry"]
 print(fruit)
@@ -49,6 +58,7 @@ list_one.append("forth element")
 list_one.insert(1,"more element")
 print(list_one)
 
+
 #Listeden Eleman Silme
 """ Dinamik bir liste oluşturmak istiyorsanız ekleme işlemi kadar silme işlemide önem arz etmektedir.
     Birkaç tane liste elemanı silme tarzı vardır: 
@@ -72,9 +82,13 @@ alist = ['a', 'b', 'c', 'd', 'e', 'f'] #Kullanılması önerilmez
 alist[1:3] = []
 print(alist)
 
-""" Listenizin bir klonunu oluşturmak isterseniz atama işleminden kaçınmanızı öneririm. Çünkü klon listenizdeki
+
+#Klon Listelerle Çalışmama
+""" 
+    Listenizin bir klonunu oluşturmak isterseniz atama işleminden kaçınmanızı öneririm. Çünkü klon listenizdeki
     her değiişklik orjinal listenizde de değişikliğe sebebiyet verir. Bunu engellemek için copy() metodunu veya 
-    slice yöntemini kullanabilirsiniz."""
+    slice yöntemini kullanabilirsiniz.
+"""
 #Slice Yöntemi
 a = [81,82,83]
 b = a[:]       
@@ -88,7 +102,8 @@ print(a is b) #False (referans bellek bölgesine bakılır)
 
 
 #Liste Metotları
-""" Listenin içinde bulunan bir string değere ulaşarak string metotlarını kullanabilirsiniz.
+""" 
+    Listenin içinde bulunan bir string değere ulaşarak string metotlarını kullanabilirsiniz.
     Ancak 'len' metodunda küçük bir fark vardır.
     len(): listede kaç eleman olduğunu gösterir.
     index(): Listedeki istenilen elemanın indisini döndürür. Listede olmayan bir veri aratırsanız hata alırsınız.
@@ -99,7 +114,8 @@ print(a is b) #False (referans bellek bölgesine bakılır)
     extend(): Listeleri birleştirir.
     list(): Boş liste oluşturur veya string bir değeri karakter karakter listeye çevirir.
     Aynı zamanda diğer koleksiyon tiplerini listeye çeviriyor.
-    """
+"""
+
 print(liste[0].count("s"))
 print(len(liste))
 

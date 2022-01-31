@@ -1,4 +1,5 @@
-""" Fonksiyon, belli bir işi yapan parçalar olarak ifade edilebilir. Yazılım dünyasında bir
+""" 
+    Fonksiyon, belli bir işi yapan parçalar olarak ifade edilebilir. Yazılım dünyasında bir
     işi yapan kod blokları bir bütün halinde yazılmaz bunu parçalara bölerek yani fonksiyonlara
     bölerek işi gerçekleştiririz. Parçaları birleştirerek bir bütün elde ederiz.
     Şuana kadar birçok kod yazdık ancak hiç fonksiyon yazmadık. Ancak yazılan hazır fonksiyonları
@@ -6,7 +7,9 @@
     Fonksiyonları kullanmamızın en büyük nedeni kod tekrarından kaçınmaktır. Bir projede birden
     fazla yerde mod alma işlemi kullanıyorsak bunu her satırda yazmak yerine bir fonksiyon
     yazıp bunu ilgili satırlarda kullanmak temiz bir kod yazmanızı sağlayacak.
-    Not: Fonksiyonların çalışması için fonksiyonu çağırmamız lazım. """
+    Not: Fonksiyonların çalışması için fonksiyonu çağırmamız lazım. 
+"""
+
 
 #Fonksiyon Tanımlama
 """ Fonksiyon tanımlamak için definition (tanım) kelimesinin ilk üç harfini kullanarak bir fonksiyon 
@@ -21,50 +24,62 @@ def firstFunction():
 
 firstFunction()
 
+
 #Fonksiyonlarda Parametre Tanımlama
-""" Fonksiyonlar insanlar gibi bazı işleri yapmadan önce dışardan veri alma ihtiyacı duyabilir.
+""" 
+    Fonksiyonlar insanlar gibi bazı işleri yapmadan önce dışardan veri alma ihtiyacı duyabilir.
     Bizde böyle fonksiyonlar yazdığımız zaman fonkssiyonumuza değer göndermemiz lazım.
     Örneğin iki sayıyı toplayan fonksiyon yazdığımızda iki sayıya ihtiyaç duyarız işte bu iki
     sayıyı fonksiyonumuza dışardan veri olarak göndeririz. 
     Not: Fonksiyonun aldığı değerlere parametre, fonksiyona gönderilen değerler ise 
-    argüman denir. """
+    argüman denir.
+"""
 
 def topla(num1,num2):
     print(num1 + num2)
 topla(10,20)
 
-""" Eğer parametre alan fonksiyonları çağırırken argüman yollamazsak derleyici hata verir.
+""" 
+    Eğer parametre alan fonksiyonları çağırırken argüman yollamazsak derleyici hata verir.
     Bunu engellemek için parametrelere varsayılan değer verebiliriz. Bu sayede argüman
     yollamasak ya da eksik yollasak dahi fonksiyon varsayılan değerler üzerinden işlemlerini 
-    gerçekleştirecek. """
+    gerçekleştirecek. 
+"""
 
 def topla2(num1 = 0,num2 = 0):
     print(num1 + num2)
 topla2()
 
+
 #Anahtar Kelimeli (Hedefli) Argüman Yollama
-""" Şuana kadar yaptığımız fonksiyon örneklerinde pozisyonel argüman mantığı kullandık.
+""" 
+    Şuana kadar yaptığımız fonksiyon örneklerinde pozisyonel argüman mantığı kullandık.
     Yani her verdiğimiz argüman parametrelere sırası ile yerleşti. Şimdi size anahtar kelimeli
     (hedefli) argüman mantığını anlatacağım. Anahtar kelimeli argüman, değerleri sırası ile değil
     parametreleri hedef alarak yollamak diyebiliriz. Yani argüman yollarken odak noktamız
-    parametredir. """
+    parametredir. 
+"""
 
 def hedef(parametre1,parametre2,parametre3):
     print("1. parametre : {}, 2. parametre : {}, 3. parametre : {}".format(parametre1,parametre2,parametre3))
 hedef(parametre2 = 10, parametre3 = 122, parametre1=87)
 
+
 #Fonksiyonlarda return kullanımı
-""" İnsanlar belli bir olayı değerlendirir ve bunun sonucunda dışarıya sözlü veya yazılı
+""" 
+    İnsanlar belli bir olayı değerlendirir ve bunun sonucunda dışarıya sözlü veya yazılı
     olarak çıktı (dönüt) verir. Fonksiyonlarda içerisinde yapılan işlemler sonrasında dışarıya
     çıktı vermesi gerekebilir. Bu noktada return yapısını kullanırız ve dışarıya değer
     göndeririz. Bu dönen değeri programımızın içinde de kullanabiliriz. 
     Return ifadesi kullanıldığı anda fonksiyon çağrısı sonlandırılır ve geriye değer döndürür.
     İster bir koşul yapısı içinde kullanın ister bir döngü içinde kullanın yorumlayıcı fonksiyonda return ifadesini
-    gördüğü an fonskiyon çağrısını durdurur."""
+    gördüğü an fonskiyon çağrısını durdurur.
+"""
 
 def topla3(num1 = 0, num2 = 0):
     return num1 + num2
 print(topla3(5,5))
+
 
 #Fonksiyon Örnekleri
 """ Tek çift sayı tespit eden fonksiyon """
@@ -91,15 +106,18 @@ print(buyut("KaMiL"))
 
 
 #Karadelik (Çoklu) Kapasiteli Parametre
-""" Fonksiyonlara tek parametre ile birden fazla argüman yollayabiliriz. Bu tür fonksiyonlara
+""" 
+    Fonksiyonlara tek parametre ile birden fazla argüman yollayabiliriz. Bu tür fonksiyonlara
     karadelik kapasiteli fonksiyon denir. Pozisyonel argüman çağrımı yapıldığında tek yıldız
     kullanılır ve değerleri demet içinde tutar. Anahtar kelimeli argüman çağrımında ise
     iki yıldız kullanırız ve değerleri sözlük içinde tutar. 
-    Not: Bu iki yolu aynı anda kullanabiliriz."""
+    Not: Bu iki yolu aynı anda kullanabiliriz.
+"""
 
 def function(*args):#pozisyonel argüman kullanımı
     print(args)
 function("enes",12,12.2,True)
+
 
 def fonksiyon(**kwargs):#anahtar kelimeli (keyword) argüman kullanımı
     print(kwargs)
@@ -108,9 +126,12 @@ def fonksiyon(**kwargs):#anahtar kelimeli (keyword) argüman kullanımı
         print("Anahtar : {}, Değer : {}".format(key,value))
 fonksiyon(isim="Mahmut", soyad="Tuncer", yas=50)
 
+
 #lambda (anonim) Fonksiyonlar
-""" Bazen hız kazanmak için küçük işler yapan fonksiyonları lambda denen tek satırlık
-    fonksiyonlar ile gerçekleştiririz. Örnekleri aşağıdadır. """
+""" 
+    Bazen hız kazanmak için küçük işler yapan fonksiyonları lambda denen tek satırlık
+    fonksiyonlar ile gerçekleştiririz. Örnekleri aşağıdadır. 
+"""
 
 toplama = lambda sayi1,sayi2: sayi1 + sayi2
 ussu = lambda taban,us: taban**us
@@ -118,14 +139,16 @@ print(toplama(10,85))
 print(ussu(5,4))
 
 
-""" Bir fonksiyon yazmadan önce kendinize sormanız gereken sorular?
+""" 
+    Bir fonksiyon yazmadan önce kendinize sormanız gereken sorular?
     1) Fonksiyon ne iş yapacak?
     2) Kaç parametre tanımlamalıyım?
     3) Parametrelerin veri türleri ne olmalı?
     4) Fonksiyonun return değerinin veri türü ne olmalı?
 """
 
-""" Fonksiyon içinde başka bir fonksiyon çağrısı yapabilirsiniz.
+""" 
+    Fonksiyon içinde başka bir fonksiyon çağrısı yapabilirsiniz.
     Fonksiyon içinde liste ve sözlük değerlerini değiştirmek side effect (yan etki)
     olarak adlandırılır. Fonksiyona parametre tanımlamasını genellikle by-value yöntemi ile
     gerçekleştiririz. Bu yöntem bellekte yeni bir local değişken yaratarak argüman olarak verilen
@@ -156,7 +179,9 @@ y = 5
 double(y)
 print(y)
 
-""" Fonksiyonlarda geriye birden fazla değer döndürebiliyoruz. Return ifadesinin yanına birden fazla
+
+""" 
+    Fonksiyonlarda geriye birden fazla değer döndürebiliyoruz. Return ifadesinin yanına birden fazla
     değişkeni ya da değeri virgülle ayırıp yazarsak bu işlemi gerçekleştirebiliriz. Python birden fazla değişkeni 
     veya değeri yan yana virgülle ayrıldığını görünce bunu bir tupple veri tipine dönüştürerek return ediyor.
     Return eden değeri bir değişken oluşturup eşitleyebiliriz. Bunu yaparsak değişkenin veri tipi tuple olur. Eğer
@@ -173,7 +198,8 @@ def circleInfo(r):
 circumference, area = circleInfo(10)
 
 
-""" Bir fonksiyona tuple veri tipindeki değişkeni argüman değer olarak yollamak isterseniz aşağıdaki kod
+""" 
+    Bir fonksiyona tuple veri tipindeki değişkeni argüman değer olarak yollamak isterseniz aşağıdaki kod
     bloğunu inceleyin.
     * karakteri ile tuple'ın içindeki değerleri fonksiyon parametrelerine teker teker yollarız.
 """

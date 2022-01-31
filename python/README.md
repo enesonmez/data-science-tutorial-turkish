@@ -14,6 +14,19 @@
     7. [Loop](./fundamentals/4.0.loops.py)
     8. [Functions](./fundamentals/5.0.functions.py)
     9. [Error-Catch](./fundamentals/6.0.error_catch.py)
-    10. [Advanced Level Functions](./fundamentals/)
+    10. [Advanced Level Functions](./fundamentals/7.0.advanced_level_functions.py)
 
 * OOP (Object Oriented Programming)
+    1. [Classes and Methods](./oop/1.0.class_methods.py)
+    2. [Inheritance](./oop/2.0.inheritance.py)
+    3. [Polymorphism](./oop/3.0.polymorphism.py)
+    4. [Encapsulation](./oop/4.0.encapsulation.py)
+    5. [Abstract](./oop/5.0.abstract.py)
+    6. [Property](./oop/6.0.property.py)
+
+* Advanced
+    1. [File Operations](./advanced/1.0.file_operations.py)
+    2. [Csv Operations](./advanced/2.0.csv_operations.py)
+    3. [Json Operations](./advanced/3.0.json_operations.py)
+    4. [Database (SQLite) Operations](./advanced/4.0.database_operations.py)
+    5. [Iterator](./advanced/5.0.iterator.py)

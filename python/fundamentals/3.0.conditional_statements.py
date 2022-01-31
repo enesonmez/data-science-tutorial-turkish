@@ -1,4 +1,5 @@
-""" Koşul ifadeleri gündelik hayatımızda da karşımıza çıkmaktadır. Bu doğru mu, bu böyle
+""" 
+    Koşul ifadeleri gündelik hayatımızda da karşımıza çıkmaktadır. Bu doğru mu, bu böyle
     miydi, 17 2'ye tam bölünür mü? gibi soruların bir karşılığı vardır ve bu sorunun sahibi buna
     göre bir olayı gerçekleştirecek olabilir. İşte python daki koşul yapısı da bu
     gibi durumlar karşımızı çıkınca sorunun cevabına göre işlemler yapmamızı sağlıyor.
@@ -13,7 +14,8 @@
     
     Not: Eğer bir koşulun olumsuz durumunda bir olay gerçekleştirmek istemiyorsanız else yapısını
     kullanmayabilirsiniz (Unary selection).
-    """
+"""
+
 
 #if - else Yapısı
 x = 15
@@ -23,6 +25,7 @@ if x % 2 == 0:
     print(x, "is even")
 else:
     print(x, "is odd")
+
 
 # İç içe Koşul Yapısı (Nested Conditioanl)
 """ Sorgulamasını yaptığınız koşulun 2'den fazla sonucu olabilir. İşte bu durumda iç içe koşul yapısını kullanabilirsiniz.

@@ -1,4 +1,5 @@
-""" Tüm programların temel yapı taşı, bazı kodları defalarca tekrarlayabilmektir. 
+""" 
+    Tüm programların temel yapı taşı, bazı kodları defalarca tekrarlayabilmektir. 
     İster her gece milyonlarca müşterinin banka bakiyesini güncelliyor olsun, ister binlerce 
     kişiye e-posta mesajı göndermek olsun, programlama, bilgisayara birçok tekrarlı işlem yapma 
     talimatı vermeyi içerir. Hesaplamada, bu tekrarlayan yürütmeyi yineleme olarak adlandırıyoruz. 
@@ -10,6 +11,7 @@
     Python'da döngüler (loop) for ve while olmak üzere ikiye ayrılır.
 """
 
+
 #for döngüsü
 """ Başlangıç ve bitiş aralığı olan döngülerdir. Bu şekilde olan döngülerde kullanılabilir.
     Listelerde, tuplelarda, stringlerde kullanılabilir.
@@ -18,19 +20,23 @@
     denir."""
 sayilar = [1,2,3,4,5,6,7,8,9]
 
+
 #Liste ile for döngüsü
 """ Liste elemanlarını teker teker geçici elemana atar ve listedeki eleman bitene kadar devam eder."""
 for sayi in sayilar:
     print(sayi)
+
 
 #Range fonksiyonu ile for döngüsü
 """ Range fonksiyonu belli bir aralıkta liste oluşturur. Liste mantığı ile döngü oluşturur."""
 for sayi in range(1,10,2):
     print(sayi, end='-')
 
-#For döngüsü ile ilgili Örnekler
+
+#for döngüsü ile ilgili Örnekler
 for name in ["Joe", "Amy", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]:
     print("Hi", name, "Please come to my party on Saturday!")
+
 
 #for döngüsü ile çift sayı örneği
 cift = []
@@ -38,6 +44,7 @@ for sayi in range(1,100):
     if sayi%2==0:
         cift.append(sayi)
 print("\nÇift sayilar : " + str(cift))
+
 
 #for döngüsü ile filtrelenmiş kelimeler örneği
 """4 karakterli kelimeleri bulacak ve ilk harfi büyük olacak şekilde yeni listeye atayacak."""
@@ -50,8 +57,10 @@ for kelime in kelimeler:
 print("For Döngüsü ile Filtrelenmiş kelimeler : " + str(filtrelenmis_kelimeler))
 
 
+
 #While döngüsü
 """ Şart sağlandığı müddetçe çalışan döngülerdir. """
+
 
 #while döngüsü ile filtrelenmiş kelimeler örneği
 count = 0
@@ -62,10 +71,13 @@ while count != len(kelimeler):
     count+=1
 print("While Döngüsü ile Filtrelenmiş kelimeler : " + str(filtre_word))
 
+
 #break ve continue
-""" break ingilizce kırmak anlamına gelir bizde döngüleri kırmak amacıyla kullancağız.
+""" 
+    break ingilizce kırmak anlamına gelir bizde döngüleri kırmak amacıyla kullancağız.
     continue ise devam et anlamına gelir yazılım dünyasında ise continue kullanılan 
-    satırdan sonraki satırları atlar ve döngünün başına gelir ve döngüye devam eder. """
+    satırdan sonraki satırları atlar ve döngünün başına gelir ve döngüye devam eder. 
+"""
 
 for number in range(1,10):
     if number == 3:
@@ -76,10 +88,13 @@ for number in range(1,10):
         print("döngü kırıldı.("+str(number)+")")
         break
 
+
 #enumerate fonksiyonu
-""" Bazen bir listedeki elemanlerın liste sırasına ihtiyaç duyarız işte bu noktada 
+""" 
+    Bazen bir listedeki elemanlerın liste sırasına ihtiyaç duyarız işte bu noktada 
     enumerate yardımımıza yetişir ve bize istediğimizi verir. bu fonkisyon obje return 
-    eder ve liste elemanı ve indisini bir demette tutar. """
+    eder ve liste elemanı ve indisini bir demette tutar. 
+"""
 
 aylar = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"]
 print(list(enumerate(aylar)))

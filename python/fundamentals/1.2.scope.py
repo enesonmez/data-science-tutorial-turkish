@@ -1,4 +1,5 @@
-""" Her değişkene her yerden ulaşamayız bunu da scope adı verilen terim ile
+""" 
+    Her değişkene her yerden ulaşamayız bunu da scope adı verilen terim ile
     açıklıyoruz. 
     Scope : Bir değişkenin ulaşılabilir olduğu alanları belirten bir kelimedir..
     Değişkenler local ve global olmak üzere iki şekilde tanımlanır. Python'da herbir
@@ -32,7 +33,9 @@
     Not: Global değişkenler main içinden tanımlanır. 
 """
 
+
 c = 30 #global değişken
+
 def function():
     a = 10 # function local değişkeni
     print("fuction içerisinden erişilen c : ",c)
@@ -48,7 +51,9 @@ def function():
     except NameError:
         print("b değişkeni insidefunc'nın local değişkeni olduğunu için function'dan erişilemedi.")
 
+
 function()
+
 
 print("c global odluğu için her yerden ulaşabiliriz c : ",c)
 try:
@@ -56,6 +61,7 @@ try:
     print("b local odluğu için her yerden ulaşamayız b : ",b)
 except NameError:
     print("a ve b local değişken olduğu için buradan erişilemez.")
+
 
 #local alanlardan global değişkenlere erişim
 #yanlış kullanım

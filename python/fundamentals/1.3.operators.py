@@ -1,10 +1,14 @@
-""" Operatörler, matematiksel işlemler, karşılaştırma (comparison) işlemleri ya da mantıksal (logic) işlemler yapmamızı sağlayan 
-    ifadelerdir. Gelin bu ifadeleri birlikte görelim. """
+""" 
+    Operatörler, matematiksel işlemler, karşılaştırma (comparison) işlemleri ya da mantıksal (logic) işlemler yapmamızı sağlayan 
+    ifadelerdir. Gelin bu ifadeleri birlikte görelim. 
+"""
 
 #Matematiksel Operatörler
-""" Gündelik hayatımızda çokça başvurduğumuz dört işlemler ve matematikte kullandığımız mod alma, üs alma, tam sayı bölmesi
+""" 
+    Gündelik hayatımızda çokça başvurduğumuz dört işlemler ve matematikte kullandığımız mod alma, üs alma, tam sayı bölmesi
     gibi işlemler python dilinde operatör adı verdiğimiz yapılar ile tanımlanmıştır. Böylelikle bu işlemleri kısa bir şekilde 
-    halledebiliyoruz."""
+    halledebiliyoruz.
+"""
 
 value = 5 #atama operatörü
 print(value + 2) #toplama operatörü 
@@ -14,6 +18,7 @@ print(value / 2) #bölme operatörü
 print(value % 2) #mod alma operatörü
 print(value ** 2) #üs alma operatörü
 print(value // 2) #tam sayı şeklinde bölen operatör
+
 
 #Karşılaştırma (Comparison) Operatörleri
 """ İki değeri bir biri ile eşitlik, büyüklük, küçüklük gibi kıstaslar ile karşılaştırarak geriye doğru ya da yanlış olmasına
@@ -27,10 +32,14 @@ print(1 <= 1) #küçük eşit operatörü
 print(2 >= 2) #büyük eşit operatörü
 print(5 is 4) # eşittir operatörüne benzer ancak iki değişkenin aynı bellek bölgesini referans alıp almadığını kontrol eder.
 print(5 is not 4) #eşit değil opearatörüne benzer ancak iki değişkenin aynı bellek bölgesini referans alıp almadığını kontrol eder.
+
+
 #Referance Bellek Bölgesi
-""" Referans bölgeleri aynı olan değişkenlerde herhangi birindeki değişim diğerine yansır. Bunu için clone'lama yapılmalıdır.
+""" 
+    Referans bölgeleri aynı olan değişkenlerde herhangi birindeki değişim diğerine yansır. Bunu için clone'lama yapılmalıdır.
     String veri tipi değişebilir olmadığı için karışıklık yaşanmaz ancak liste veri tipi değişebilir olduğu için karışıklık
-    yaşanabilir."""
+    yaşanabilir.
+"""
 a = [1,2,3]
 b = [1,2,3]
 print(a is b) #False değer alacak aynı değerlere sahip olmasına rağmen bellekte farklı alanlardan referans alırlar.
@@ -39,11 +48,15 @@ b = a
 print(a is b) #True değer alır çünkü b'nin referans bellek böllgesini a'ya bağlamış olduk.
 print(a == b) #Değer olarak baktığı için True gelir.
 
-""" Karşılaştırma operatörleri ilkel veri tipleriyle, listelerle  ve koleksiyon metotları 
-    ile de kullanabilir. """
+""" 
+    Karşılaştırma operatörleri ilkel veri tipleriyle, listelerle  ve koleksiyon metotlar 
+    ile de kullanabilir. 
+"""
+
 
 #Mantıklsal (Logic) Operatörler
-""" Mantıksal operatörler, mantık işlevi olan ve - veya - değil yapılarından esinlenerek oluşturulmuş
+""" 
+    Mantıksal operatörler, mantık işlevi olan ve - veya - değil yapılarından esinlenerek oluşturulmuş
     yapılardır. and ve or yapıları için iki bool değer ile işlem yapılırken not için tek bir bool değer
     ile işlem yapılır. AND-OR-NOT yapılarının grafiklerini incelemenizi tavsiye ederim.
 
@@ -53,14 +66,17 @@ print(a == b) #Değer olarak baktığı için True gelir.
     |  : bit bazında or işlemi 
     and : ve anlamına gelir. && aynı anlamı taşır.
     or  : veya anlamına gelir. || aynı anlamı taşır.
-    not : değerin tersini döndürür."""
+    not : değerin tersini döndürür.
+"""
 
 print(5>0 and 5<10)
 print(25%2 == 0 or 25%3 == 0)
 print(not False)
 
+
 #Operatörlerde Öncelik Sıralaması
-""" Matematiktende aşina olacağınız konu olan işlem önceliği konusu ile benzerdir. Gelin öncelik sıralamasını
+""" 
+    Matematiktende aşina olacağınız konu olan işlem önceliği konusu ile benzerdir. Gelin öncelik sıralamasını
     inceleyelim:
     1.Parantez
     2.Üs alma
@@ -74,12 +90,16 @@ print(not False)
     A. ((5*3) > 10) and ((4+6) == 11)
     B. (5*(3 > 10)) and (4 + (6 == 11))
     C. ((((5*3) > 10) and 4)+6) == 11
-    D. ((5*3) > (10 and (4+6))) == 11"""
+    D. ((5*3) > (10 and (4+6))) == 11
+"""
+
 
 #in ve not in Operatörleri
-""" Sequence (dizi) yapısındaki veri tipleri için kullanılan operatördür. Diziden kastımız string ve 
+""" 
+    Sequence (dizi) yapısındaki veri tipleri için kullanılan operatördür. Diziden kastımız string ve 
     collection veri tipleridir.Bu veri bunun içinde var mı sorgulaması yapar. 'not in' operatörü
-    'in' operatörünün sonucunun tersini alarak kullanıcıya sunar."""
+    'in' operatörünün sonucunun tersini alarak kullanıcıya sunar.
+"""
 
 print('p' in 'apple') # String Kullanımı
 print('i' in 'apple')

@@ -1,18 +1,22 @@
 #String
-""" String ifadeler bir dizidir (sequence). Belli alt parçacıkların bir araya gelmesi ile oluşur.
+""" 
+    String ifadeler bir dizidir (sequence). Belli alt parçacıkların bir araya gelmesi ile oluşur.
     Örneğin; 'e','n','e','s' karakterlerinin bir araya gelmesi ile karakter dizisi olan
     string meydana gelir. Listeler gibi indislerden oluşur.
-
 """
+
 variable = "Hello WORLD"
+
 
 #String İndisleme
 variable2 = variable[5] # variable değişkeninin 5. indisini erişip variable2 değişkenine atıyoruz. -1 ile
                         # son string elemanına ulaşabiliyoruz.
 
+
 #String Slice (Dilimlemek)
 """ Belli bir karakter indis aralığını almamızı sağlar."""
 variable3 = variable[2:5] #variable değişkeninin 2,3,4 indis karakterlerini alır.
+
 
 #String Değişebilirlik (Mutability)
 """ String veri tipinin her bir indis karakteri değiştirilemiyor. Değişebilirlik özelliği yoktur. Ekleme özelliği de
@@ -58,6 +62,7 @@ print(duyuru)
 print(duyuru.lower())
 print(duyuru.upper())
 
+
 # String Birleştirme (Concatenate) ve Multiply
 """ Stringleri toplayabiliriz (birleştirme işlemi yapar) ve çarpabiliriz (tekrarlama işlemi yapar). """
 word = "drink"
@@ -65,7 +70,6 @@ word2 = "milk"
 word3 = word + " " + word2
 print(word3)
 print(word3 * 3)
-
 
 
 #String Biçimlendirme
