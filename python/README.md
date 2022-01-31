@@ -1,5 +1,7 @@
 # Python
 
+![python](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1200px-Python_logo_and_wordmark.svg.png)
+
 * Fundamentals
     1. [Variables](./fundamentals/1.0.variables_data_type.py)
     2. [Strings](./fundamentals/1.1.strings.py)
