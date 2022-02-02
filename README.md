@@ -7,3 +7,4 @@
 
 2. [Numpy](/numpy)
 3. [Pandas](/pandas)
+4. [Matplotlib](/matplotlib)
