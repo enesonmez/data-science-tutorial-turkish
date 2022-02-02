@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 numpy = "*"
+pandas = "*"
+openpyxl = "*"
 
 [dev-packages]
 ipykernel = "*"

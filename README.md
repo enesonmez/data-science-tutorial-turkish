@@ -6,3 +6,4 @@
     * [Advanced](/python/advanced)
 
 2. [Numpy](/numpy)
+3. [Pandas](/pandas)
