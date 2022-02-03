@@ -1,10 +1,11 @@
 # Data Science Tutorial
 
-1. [Python](/python)
+1. [Data Literacy (Veri Okuryazarlığı)](/data_literacy)
+2. [Python](/python)
     * [Fundamentals](/python/fundamentals)
     * [OOP](/python/oop)
     * [Advanced](/python/advanced)
 
-2. [Numpy](/numpy)
-3. [Pandas](/pandas)
-4. [Matplotlib](/matplotlib)
+3. [Numpy](/numpy)
+4. [Pandas](/pandas)
+5. [Matplotlib](/matplotlib)
