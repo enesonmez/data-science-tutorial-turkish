@@ -49,6 +49,7 @@
 ### Gözlem Birimi (Unit of observation)
 
 <div style="text-align:center"><img src="../images/gozlem-birimi.png" /></div>
+<img align="center" src="../images/gozlem-birimi.png" />
 
 Analiz sürecinde, araştırma yapılacak alanda incelenen özelliği taşıyan ve bu özelliğin değerini sayısal olarak elde edebileceğimiz kaynağa denir. Örneğin üniversite sınavına girecekler ile ilgili yapılacak bir araştırmada yer alacak her bir öğrenci bizim gözlem birimimizdir.
 
