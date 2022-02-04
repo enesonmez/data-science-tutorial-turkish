@@ -100,7 +100,6 @@ Bir veri setindeki elemanların tamamının toplamının eleman sayısına böl�
 ```math
     \mu = {\frac{1}{N} \sum_{i=1}^{N} x_{i}} = \frac{x_1+x_2+x_3+\cdots+x_N}{N}
 ```
-<pre xml:lang="latex">\mu = {\frac{1}{N} \sum_{i=1}^{N} x_{i}} = \frac{x_1+x_2+x_3+\cdots+x_N}{N}</pre>
 
 **Örneklem Aritmetik Ortalama**
 
