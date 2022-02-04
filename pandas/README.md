@@ -1,6 +1,6 @@
 # Pandas
 
-![pandas](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png)
+<div style="text-align:center"><img src="../images/pandas.png" /></div>
 
 * [Series](./1.0.series.ipynb)
 * [Dataframe](./2.0.dataframe.ipynb)

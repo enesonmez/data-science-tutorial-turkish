@@ -1,6 +1,6 @@
 # Data Literacy (Veri Okuryazarlığı)
 
-![data_literacy](https://unite.un.org/sites/unite.un.org/files/styles/uw_full_width/public/news_articles/data_literacy.png?itok=nC_50gJc)
+<div style="text-align:center"><img src="../images/data_literacy.png" /></div>
 
 ## Veri Nedir?
 
@@ -42,7 +42,7 @@ Hemen hemen her alanda veriler toplanıyor ve karar alma sürecinde kullanılıy
 
 #### Veri Türleri
 
-![veri_türleri](https://tevfikbulutcom.files.wordpress.com/2020/05/image-25.png?w=577)
+<div style="text-align:center"><img src="../images/veri-turleri.png" /></div>
 
 1. **Nicel (Sayısal) Veri** : Sayılardan oluşmaktadır. Aritmetik işlemler yapılmasına olanak sağlar. Örneğin araba satış fiyatları, ağırlık, yükseklik nicel veridir.
 
@@ -96,4 +96,4 @@ Veri bilimi projelerinde izlenmesi gereken adımlar sırası ile şu şekildedir
 
 #### Veri Bilimi Tarihçesi
 
-![veri_bilimi_tarihcesi](https://miro.medium.com/max/11898/1*laggHT3j9o9Fip8sTrMkzg.png)
+<div style="text-align:center"><img src="../images/veri_bilimi_tarihce.png" /></div>
