@@ -33,26 +33,22 @@
 
     <div style="text-align:center"><img src="../images/olasiliga_dayali_orneklem.jpg" /></div>
 
-    1.1. **Basit Tesadüfi Örnekleme (Simple Random Sample)** : Popülasyon içinden rastgele örneklem seçme yöntemidir.
+    1.1. **Basit Tesadüfi Örnekleme (Simple Random Sample)** : Popülasyon içinden rastgele örneklem seçme yöntemidir. <br>
     1.2. **Sistematik Örnekleme (Systematic Sampling)** : Ana kütle çok büyük olduğunda kullanılır. Ana kütleden belirli aralıklarla örnek seçilerek elde edilir.
 
     <div style="text-align:center"><img src="../images/sistematik_orneklem.png" /></div>
 
-    1.3. **Tabakalı Örnekleme (Stratified Sampling)** : Özelliği anakütlenin içindeki bütün elamanlar belli özelliklere göre kendi içlerinde birbirlerine benzeyen birkaç gruptan, tabakadan oluştuklarıdır. Tabaka elemanları birbirlerine benzerler fakat diğer tabaka elemanlarından çok bariz şekilde değişiktirler. Tabaka örneğinde örnek elemanları öyle seçilmektedir ki her bir anakütle tabakası için örnekte temsilci bulunmaktadır.
+    1.3. **Tabakalı Örnekleme (Stratified Sampling)** : Özelliği anakütlenin içindeki bütün elamanlar belli özelliklere göre kendi içlerinde birbirlerine benzeyen birkaç gruptan, tabakadan oluştuklarıdır. Tabaka elemanları birbirlerine benzerler fakat diğer tabaka elemanlarından çok bariz şekilde değişiktirler. Tabaka örneğinde örnek elemanları öyle seçilmektedir ki her bir anakütle tabakası için örnekte temsilci bulunmaktadır. <br>
     1.4. **Küme Örnekleme (Cluster Sampling)** : Genel olarak bu yöntemin uygulanması anakütle içinde veri elamanları "kümeler" halinde ise uygundur. Bir küme içindeki elemanlar belirli karakter özelliklerine göre (çoğunlukla coğrafî alana göre) birbirine "yakınlık" göstermekte ve diğer anakütle içindeki kümelerden daha "uzak" olmaktadır.
-2. **Olasılığa Dayalı Olmayan Teknikler**
-   2.1. **Kolayda Örnekleme** : Ankete cevap veren herkes örnekleme dahil edilir.
-   2.2. **Kasti Örnekleme** : Örneklem araştırmacının araştırma problemine cevap bulacağına inandığı kişilerden oluşur.
-   2.3. **Kota Örnekleme** : Önceden belirlenen kriterlere göre anakitleyi temsil edecek kişişlerden örneklem oluşturulur.
+2. **Olasılığa Dayalı Olmayan Teknikler** <br>
+   2.1. **Kolayda Örnekleme** : Ankete cevap veren herkes örnekleme dahil edilir. <br>
+   2.2. **Kasti Örnekleme** : Örneklem araştırmacının araştırma problemine cevap bulacağına inandığı kişilerden oluşur. <br>
+   2.3. **Kota Örnekleme** : Önceden belirlenen kriterlere göre anakitleyi temsil edecek kişişlerden örneklem oluşturulur. <br>
    2.4. **Kartopu Örnekleme** : Örnekleme dahil edilecek ilk birey yargısal veya tesadüfi olarak seçilir. Ardından ikinci kişi ilk görüşülen kişinin yönlendirmesiyle seçilir. Üçüncü ikincinin, dördüncü üçüncünün derken büyük bir kartopu örneklemi oluşur.
 
 ### Gözlem Birimi (Unit of observation)
 
-<div style="text-align:center"><img src="../images/gozlem-birimi.png" /></div>
-
-<p align="center">
-    <img align="center" src="../images/gozlem-birimi.png"> 
-</p>
+<p align="center"><img align="center" src="../images/gozlem-birimi.png"></p>
 
 Analiz sürecinde, araştırma yapılacak alanda incelenen özelliği taşıyan ve bu özelliğin değerini sayısal olarak elde edebileceğimiz kaynağa denir. Örneğin üniversite sınavına girecekler ile ilgili yapılacak bir araştırmada yer alacak her bir öğrenci bizim gözlem birimimizdir.
 
@@ -60,10 +56,10 @@ Analiz sürecinde, araştırma yapılacak alanda incelenen özelliği taşıyan 
 
 Popülasyonun ölçülebilen, gözlemlenebilen, sayısal olarak ifade edebildiğimiz özellikleri ana kütlenin parametresi deriz. Parametrenin belirlenmesi için ana kütle içerisindeki tüm bilgilere ılaşılması gerekir. Ana kütle birden fazla parametreye sahip olabilir.
 
-<div style="text-align:center"><img src="../images/parametre-istatistik.png" /></div>
+<p align="center"><img align="center" src="../images/parametre-istatistik.png"></p>
 
-Popülasyondan hesaplanan sayısal değerlere **parametre** denir. <br>
-Örneklemden elde edilen sayısal değerlere **istatistik** denir.
+* Popülasyondan hesaplanan sayısal değerlere **parametre** denir. <br>
+* Örneklemden elde edilen sayısal değerlere **istatistik** denir.
 
 ### Değişkenler
 
@@ -77,7 +73,8 @@ Gözlemden gözeleme değişiklik gösterebilen, yeni değerler alabilen ya da s
 - **Kesikli Değişken** : Sınırlı sayıda değer alıyorsa kesikli değişkendir. Örnek.: cinsiyet, kan grubu
 - **Bağımlı - Bağımsız Değişkenler** : Değişkenler neden sonuç ilişkisi içerisinde yer alıyor ve birbirlerinden etkileniyorsa bağımlı-bağımsız değişken vardır deriz.
 
-<div style="text-align:center"><img src="../images/bagimli-bagimsiz-degiskenler.png" /></div>
+<p align="center"><img align="center" src="../images/bagimli-bagimsiz-degiskenler.png"></p>
+
 
 ### Ölçek Türleri
 
@@ -90,7 +87,7 @@ Gözlemden gözeleme değişiklik gösterebilen, yeni değerler alabilen ya da s
 
 ## Tanımlayıcı İstatistik
 
-<div style="text-align:center"><img src="../images/tanimlayici-istatistikler.jpg" /></div>
+<p align="center"><img align="center" src="../images/tanimlayici-istatistikler.jpg"></p>
 
 ### 1. Yer Ölçüleri
 
@@ -319,7 +316,8 @@ Bu varsayım **Pearson Çarpıklık Katsayıları** olarak literatürde yer alma
     \bar{x} = aritmetik\ ortalama
 ```
 
-<div style="text-align:center"><img src="../images/carpiklik.png" /></div>
+<p align="center"><img align="center" src="../images/carpiklik.png"></p>
+
 
 ### 4. Basıklık (Kurtosis)
 
@@ -331,7 +329,7 @@ Grafik gösteriminden yola çıkarak dağılımın basıklığını ölçme sür
 
 Formülde dikkat edilmesi gereken nokta 3 ile çıkarma yapmamızdır. Bunun nedeni aslında dikkat ettiyseniz değerlerin 4.kuvveti alınmasındandır. 4.kuvvetini aldığımız hiçbir değer negatif olmaz. Bunu bir düzeltme sayısı olarak düşünebiliriz. 3 değerini çıkarmadan önceki değer tam olarak 3 olduğunda verinin basıklığı normal dağılıma uygun olduğu görülür. Bu nedenle veriden 3 çıkarılarak normal dağılıma yakınsayan durumun 0 değerinde gerçekleşmesi sağlanır.
 
-<div style="text-align:center"><img src="../images/basiklik.png" /></div>
+<p align="center"><img align="center" src="../images/basiklik.png"></p>
 
 ## Çıkarımsal İstatistik
 
@@ -407,16 +405,16 @@ Hipotez testinde bir hipotezle onun karşıtı (H0 ve H1) olan hipotezlerin hang
 
 #### Kritik Bölge, Anlamlılık Düzeyi
 
-<div style="text-align:center"><img src="../images/kritik_bolge.png" /></div>
+<p align="center"><img align="center" src="../images/kritik_bolge.png"></p>
 
 #### Hipotez Testinin Uygulanma Adımları
 
-<div style="text-align:center"><img src="../images/hipotez_testi_adimlari.png" /></div>
+<p align="center"><img align="center" src="../images/hipotez_testi_adimlari.png"></p>
 
 #### Örneklem Dağılımının Belirlenmesi
 Güven aralığı içinde geçerlidir.
 
-<div style="text-align:center"><img src="../images/hipotez_test_orneklem_dagilimi.png" /></div>
+<p align="center"><img align="center" src="../images/hipotez_test_orneklem_dagilimi.png"></p>
 
 #### Popülasyon Varyansı Biliniyorken Ortalama için Hipotez Testi Örneği
 
@@ -426,7 +424,7 @@ Belirli bir hastalığın tedavisi için yeni bir tür ilaç geliştirilmiştir.
 ```
 varyans = 4 ve alfa = 0.01 ise bu iddia için kararınız ne olur?
 
-<div style="text-align:center"><img src="../images/hipotez_testi_cozum.png" /></div>
+<p align="center"><img align="center" src="../images/hipotez_testi_cozum.png"></p>
 
 Daha detaylı bilgi için => [BUders Boğaziçiliden Özel Ders](https://www.youtube.com/playlist?list=PLcNWqzWzYG2tX9DASNZBtrskcXnelH8Hf)
 
@@ -434,7 +432,7 @@ Daha detaylı bilgi için => [BUders Boğaziçiliden Özel Ders](https://www.you
 
 Korelasyon tanımsal olarak istatistikte iki veya daha fazla değişkenin arasındaki doğrusal ilişkinin yönünü ve gücünü ifade eder. Bir değişkenin iki ya da daha çok değişken ile olan ilişkisi çoklu korelasyon adını alır. Değişkenlerden birinin sabitlenerek diğer değişkenler ile olan ilişkisi ise kısmi korelasyon adını alır. Korelasyon sayısı **"r"** ile gösterilir. Korelasyon katsayısı -1 ile +1 değerleri arasında değişmektedir.
 
-<div style="text-align:center"><img src="../images/korelasyon.png" /></div>
+<p align="center"><img align="center" src="../images/korelasyon.png"></p>
 
 ### 4. Regresyon
 
